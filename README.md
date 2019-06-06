@@ -98,15 +98,12 @@ The `go-jsoncache` package defines the following
 - `Dir` — Intended to represent a full local directory path
 - `Key` — Intended to be used with cache keys
 
-
-
-- `VerifyCacheFile(Key) (Filepath, status.Status)` 
-
-### Other Methods
+### Other Cache Methods
 
 There are several other methods provided, but we have not yet documented them:
 
-- `VerifyCacheFile(Key) (Filepath, status.Status)` 
+- `VerifyCacheFile(Key) (Filepath, status.Status)`
+- `GetCacheFilepath(Key) Filepath` 
 
 ## Cache File Location(s)
 By default the cache location is a subdirectory name of your own
